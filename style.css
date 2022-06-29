@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  height: auto;
+  width: 100%;
+  background-color: #e5e5ff;
+}
+
+.container {
+  height: 210px;
+  width: 40%;
+  box-sizing: border-box;
+  /* border: 2px solid black ; */
+  border-radius: 10px;
+  background-color: #ffff;
+  margin: auto;
+  margin-top: 10px;
+}
+.heading-top {
+  width: 100%;
+  height: 10px;
+  background-color: #6c2cf5;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-bottom: 1px;
+}
+.head-heading {
+  font-size: 30px;
+  padding: 20px;
+}
+.head-sub-heading {
+  font-size: 18px;
+  padding: 0px 20px 15px;
+}
+.head-account {
+  display: inline-flex;
+  font-size: 18px;
+}
+.account-icon {
+  padding: 20px 1px 0px 20px;
+}
+.account-email {
+  padding: 15px 1px 0px 10px;
+}
+.account-switch {
+  padding: 15px 1px 0px 10px;
+  
+}
+a {
+  text-decoration: none;
+}
+.require {
+  
+  font-size: 18px;
+  color: red;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+/* Form Structure Start */
+
+.form-container {
+  width: 40%;
+  height: 150px;
+  background-color: #ffff;
+  border-radius: 10px;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+#input-1,#input-2,#input-3,#input-4,#input-5,#input-6
+
+ {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 18px;
+  outline: 0;
+  border-width: 0 0 2px;
+  width: 50%;
+}
+
+.form-container-education {
+  width: 40%;
+  height: 350px;
+  background-color: #ffff;
+  border-radius: 10px;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+#redio-box {
+  margin: 10px;
+  height: 20px;
+  width: 20px;
+}
+
+.form-container-department {
+  width: 40%;
+  height: 700px;
+  background-color: #ffff;
+  border-radius: 10px;
+  margin: auto;
+  box-sizing: border-box;
+  padding-top: 25px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+.buttons {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+#btn-1 {
+  float: left;
+  height: 40px;
+  width: 20%;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #6c2cf5;
+  border: 0.1px solid rgb(158, 144, 233);
+  font-size: 18px;
+  cursor: pointer;
+}
+#btn-2 {
+  float: right;
+  height: 40px;
+  width: 20%;
+  border-radius: 5px;
+  color:  #6c2cf5;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+ 
+}
+
+.require-item{
+    
+    color: red;
+}
+
+
+.footer{
+  text-align: center;
+}
+.footer-1{
+  color: rgb(125, 121, 105);
+  padding-bottom: 10px;
+}
+.footer-2{
+  font-size: 18px;
+  padding-bottom: 50px;
+}
+
+
+/* Media quary */
+@media only screen and (max-width: 1050px) {
+ 
+  .container ,
+  .form-container,
+  .form-container-education,
+  .form-container-department,
+  .buttons {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 756px) {
+  .container,
+  .form-container,
+  .form-container-education,
+  .form-container-department,
+  .buttons {
+    width: 80%;
+  }
+ 
+}
+@media only screen and (max-width: 650px) {
+ 
+  .container ,
+  .form-container,
+  .form-container-education,
+  .form-container-department,
+  .buttons {
+    width: 90%;
+  }
+  .form-container-department{
+    height: 750px;
+  }
+  .container{
+    height: 230px;
+  }
+}

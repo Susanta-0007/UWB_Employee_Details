@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Employee Details</title>
+        <link rel="stylesheet" href="style.css" />
+        <!-- jquery Cdn -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- font-awesome Cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        <!-- Favicons use -->
+        <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/344/fill-in-form.png">
+        <!-- Sweet Alert Cdn -->
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </head>
+    <body>
+        <!-- Heading Structure Start -->
+        <div class="container">
+            <div class="heading-top"></div>
+            <div class="head-contain">
+                <div class="head-heading">Employee Details</div>
+                <div class="head-sub-heading">United Well-being Foundation</div>
+            </div>
+            <hr />
+            <div class="head-account">
+                <i class="fa-solid fa-eye-slash account-icon"></i>
+                <p class="account-email">xyz.public@gmail.com (not shared)</p>
+                <span class="account-switch"> <a href="#">Switch accounts</a></span>
+            </div>
+            <p class="require">*Required</p>
+        </div>
+        <br />
+        <br />
+        <!-- Form Structure Start -->
+        <form action="">
+            <div class="form-container">
+                <label class="lable-all" for="fullName">Name <span class="require-item">*</span></label>
+                <br />
+                <br />
+                <input required placeholder="Your answer " type="text" name="fullName" id="input-1" />
+            </div>
+            <br />
+            <br />
+            <div class="form-container">
+                <label for="mail">E-mail ID <span class="require-item">*</span></label>
+                <br />
+                <br />
+                <input required placeholder="Your answer" type="email" name="mail" id="input-2" />
+            </div>
+            <br />
+            <br />
+            <div class="form-container">
+                <label for="phNumber">Phone No. <span class="require-item">*</span> </label>
+                <br />
+                <br />
+                <input required placeholder="Your answer" type="number" name="" id="input-3" />
+            </div>
+            <br />
+            <br />
+            <div class="form-container">
+                <label for="wpNumber">Whatsapp No. <span class="require-item">*</span></label>
+                <br />
+                <br />
+                <input required type="number" name="wpNumber" id="input-4" />
+            </div>
+            <br />
+            <br />
+            <div class="form-container">
+                <label for="dob">Date Of Birth <span class="require-item">*</span> </label>
+                <br />
+                <br />
+                <input required type="date" name=dob" id="input-5">
+            </div>
+            <br />
+            <br />
+
+            <!-- Antoher 01 -->
+
+            <div class="form-container-education">
+                <label for="radio">Education <span class="require-item">*</span></label>
+                <br />
+                <br />
+                <input required type="radio" name="Educatio" id="redio-box" /> 11th
+                <br />
+                <input required type="radio" name="Educatio" id="redio-box" /> 12th
+                <br />
+                <input required type="radio" name="Educatio" id="redio-box" /> 12th
+                <br />
+                <input required type="radio" name="Educatio" id="redio-box" />
+                Post-Graduation
+                <br />
+                <input required type="radio" name="Educatio" id="redio-box" /> PHD
+                <br />
+                <input required type="radio" name="Educatio" id="redio-box" /> Other :
+                <input type="text" name="" id="input-6" />
+            </div>
+            <br />
+            <br />
+            <div class="form-container-department">
+                <label for="#">Your Department(For which you are selected) <span class="require-item">*</span></label>
+                <br />
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />HR (3 Months)
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Forensic Science Trainer (3 Months)
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Psychology Research Trainee (3 Months)
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Psychologist (6 Months)
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Front-end Developer(3 Months)
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Back-end Developer(3 Months)
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Full StackDeveloper(3 Months)
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Campus Ambassador(3 Months)
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Content Writer(3 Months)
+
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Graphic Designer(3 Months)
+
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Video Editor/Making(3 Months)
+
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Social Media Marketing(3 Months)
+
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Market Research(3 Months)
+
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />UI/UX Designer(3 Months)
+
+                <br />
+                <input required type="radio" name="Department" id="redio-box" />Instagram Influencer (3 Months) Influencer (3 Months
+                <br />
+            </div>
+            <br />
+
+            <div class="buttons">
+                <button id="btn-1" type="submit">Submit</button>
+                <button id="btn-2" type="reset">Clear from</button>
+            </div>
+            <br />
+            <br />
+        </form>
+        <div class="footer">
+            <p class="footer-1">Never submit passwords through Google Forms.</p>
+            <p class="footer-2">This demo form created with 💚 by <a href="https://susantagorai08.github.io/Resume_Project01CN/">Susanta</a></p>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
